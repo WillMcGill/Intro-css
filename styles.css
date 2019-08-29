@@ -24,9 +24,10 @@ html {
 .card article
   {
    height: 12em; 
+   background-color: rgba(0,0,0,0.75)
   }
 
-.card p
+.card p, .card h2
   {
     margin: 0px;
   }
@@ -34,6 +35,21 @@ html {
   {
     max-height: 100%;
     float: right;
+  }
+
+.card header, .card footer
+  {
+      height:2.5em;
+      padding:1em;
+
+  }
+
+  .card article p
+  {
+    font-size: 1.5em;
+    color: whitesmoke;
+    padding-left: 1em;
+
   }
 
 /* Header Setup */
@@ -44,15 +60,18 @@ html {
     border-radius: 1.5em 1.5em 0 0;
   }
 
-h2
+  .card header h2
   {
-    margin:0px
+    font-size: 2em;
+    
   }
+
 /* Footer Setup */
 
-.card footer 
+.card footer
   {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
+    font-size: 1.5em;
   }
   
