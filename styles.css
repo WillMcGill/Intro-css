@@ -1,86 +1,90 @@
 /* General Page styles */
 
 body {
-    margin: 0;
-  }
-  
+  margin: 0;
+}
+
 html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
-    font-size: 10px;
-    background-color: #ccc;
-  }
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
 
 /* Card Setup */
 .card
-  {
-    width: 35em;
-    height: 22em;
-    margin: 5em auto;
-    background-color: red;
-    border: 0.2em solid black;
-    border-radius: 1.5em;
-  }
+{
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
 
 .card article
-  {
-   height: 12em; 
-   background-color: rgba(0,0,0,0.75);
-   padding-left: 1em;
-  }
+{
+ height: 12em; 
+ background-color: rgba(0,0,0,0.75);
+ padding-left: 1em;
+ padding-top: 3px;
+ padding-bottom: 3px;
+}
 
 .card p, .card h2
-  {
-    margin: 0px;
-  }
+{
+  margin: 0px;
+}
 .card article img
-  {
-    max-height: 100%;
-    float: right;
-  }
+{
+  max-height: 110px;
+  padding: 3px;
+  float: right;
+}
 
 .card header, .card footer
-  {
-      height:3em;
-      padding:1em;
+{
+    height:3em;
+    padding:1em;
 
-  }
+}
 
-  .card article p
-  {
-    font-size: 1.5em;
-    color: whitesmoke;
-    /*padding-left: 1em;*/
+.card article p
+{
+  font-size: 1.5em;
+  color: whitesmoke;
+  
 
-  }
+}
 
 /* Header Setup */
 
 .card header
-  {
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
-    border-radius: 1.5em 1.5em 0 0;
-  }
+{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+}
 
 .card header h2
-  {
-    font-size: 2em;
-    
-  }
+{
+  font-size: 2em;
+  
+}
 
 /* Footer Setup */
 
 .card footer
-  {
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
-    border-radius: 0 0 1.5em 1.5em;
-    
-    
-  }
+{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+  
+  
+}
 
-  .card footer p
-  { 
-    font-size: 1.5em;
-  }
+.card footer p
+{ 
+  font-size: 1.5em;
+}
+
 
 
   
